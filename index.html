@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CRUDS</title>
+</head>
+<body>
+    <div class="project">
+        <h2>CRUDS</h2>
+        <h3>CREATE READE UPDATE DELETE SEARCH</h3>
+        <form action="">
+            <input type="text" placeholder="title" id="title" class="clear">
+           <div class="giveTotal">
+            <input type="number" placeholder="price" id="price" class="clear">
+            <input type="number" placeholder="taxes" id="tax" class="clear">
+            <input type="number" placeholder="ads" id="ads" class="clear">
+            <input type="number" placeholder="discount" id="disc" class="clear">
+            <span class="total" >Total:</span>
+           </div>
+           
+            <input type="number" placeholder="count" id="count" class="clear">
+            <input type="text" placeholder="category" id="catg" class="clear">
+            <input type="submit" value="Create" id="submit">
+            <div class="Error" style="display: none;"> Fill All inputs with data</div>
+            <input type="text" placeholder="search" id="Search">
+        </form>
+        <div class="searchitems">
+            <button id="searchTitle">Search By Title</button>
+            <button id="searchcategory">Search By category</button>
+        </div>
+        <button class="DeleateAll" style="display: none;"></button>
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>TITLE</th>
+                <th>PRICE</th>
+                <th>TAXES</th>
+                <th>ADS</th>
+                <th>DISCOUNT</th>
+                <th>TOTAL</th>
+                <th>CATEGORY</th>
+                <th>UPDATE</th>
+                <th>DELETE</th>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
